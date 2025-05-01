@@ -75,7 +75,6 @@ class TimeCalculator {
     return Age(years: years, months: months, days: days);
   }
 
-
   /// Formats the age of a person in a human-readable format.
   static String formatAge(DateTime birthDate) {
     Age age = calculateAge(birthDate);
@@ -146,15 +145,13 @@ class TimeCalculator {
     return workingDays;
   }
 
-
-/// Converts a date and time from one time zone to another.
-  static DateTime convertTimeZone(DateTime dateTime, String fromTimeZone, String toTimeZone) {
+  /// Converts a date and time from one time zone to another.
+  static DateTime convertTimeZone(
+      DateTime dateTime, String fromTimeZone, String toTimeZone) {
     tz.initializeTimeZones();
     final fromTZ = tz.getLocation(fromTimeZone);
     final toTZ = tz.getLocation(toTimeZone);
     final fromTZDateTime = tz.TZDateTime.from(dateTime, fromTZ);
     return tz.TZDateTime.from(fromTZDateTime, toTZ);
   }
-
-
 }
