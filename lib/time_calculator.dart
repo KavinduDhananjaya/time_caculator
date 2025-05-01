@@ -4,10 +4,10 @@ library time_calculator;
 class TimeCalculator {
 
   static String timeAgoSinceDate(DateTime time, {bool numericDates = true}) {
-    DateTime notificationDate = time;
+    DateTime givenDateTime = time;
     final date2 = DateTime.now();
 
-    final difference = date2.difference(notificationDate);
+    final difference = date2.difference(givenDateTime);
 
     if ((difference.inDays / 7).floor() >= 1) {
       return (numericDates) ? '1 week ago' : 'Last week';
