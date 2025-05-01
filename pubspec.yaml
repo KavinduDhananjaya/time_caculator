@@ -1,6 +1,6 @@
 name: time_calculator
 description: A Flutter package for time-related calculations, including age computation and more.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/KavinduDhananjaya/time_caculator
 
 environment:

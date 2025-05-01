@@ -2,6 +2,12 @@
 
 ---
 
+## [0.0.3]
+
+- Minor bug fixes
+- [01.05.2025]
+
+---
 
 ## [0.0.2]
 - Added new time calculation functions:

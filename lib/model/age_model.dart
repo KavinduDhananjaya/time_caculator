@@ -3,7 +3,11 @@ class Age {
   final int months;
   final int days;
 
-  Age({required this.years, required this.months, required this.days});
+  Age({
+    required this.years,
+    required this.months,
+    required this.days,
+  });
 
   @override
   String toString() {

@@ -19,7 +19,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  time_calculator: ^0.0.2
+  time_calculator: ^0.0.3
 ```
 
 ---
